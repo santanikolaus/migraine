@@ -3,8 +3,10 @@ from pathlib import Path
 
 import pandas as pd
 
+from models.constants import DATA_DIR
+
 # TODO: migrate towards yaml/pydantic driven
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "Migri.xlsx"
+DATA_PATH = DATA_DIR / "Migri.xlsx"
 SHEET_NAME = "Data"
 
 
