@@ -1,0 +1,13 @@
+reddit:
+  subreddit: migraine
+  user_agent: "script:migraine-case-research:v0.1 (by /u/{username})"
+  request_interval: 1.0
+  timeout: 30
+  max_retries: 4
+  page_size: 100
+  listings:
+    - new
+    - top
+    - hot
+  pages_per_listing: 10
+  search_pages: 3

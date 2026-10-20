@@ -4,3 +4,6 @@ tabulate
 matplotlib
 httpx
 pydantic
+pydantic-settings
+PyYAML
+pytest
